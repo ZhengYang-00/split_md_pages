@@ -23,6 +23,6 @@ if __name__ == '__main__':
     md_filepath = '/home/zheng_yang/workspace/data-synthesis/tests/test_samples/md_label_generate/md/cn_test.md'
     mdtext_by_page = split_whole_md(pdf_path=pdf_filepath, md_path=md_filepath)
     for text in mdtext_by_page:
-        print(text[-20:])
+        print(text[-40:])
 
 
