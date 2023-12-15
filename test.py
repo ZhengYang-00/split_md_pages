@@ -19,10 +19,10 @@ def get_pdfpage_text(pdf_path, page_num):
 
 
 if __name__ == '__main__':
-    pdf_filepath = '/home/zheng_yang/workspace/data-synthesis/tests/test_samples/md_label_generate/pdf/cn_test.pdf'
-    md_filepath = '/home/zheng_yang/workspace/data-synthesis/tests/test_samples/md_label_generate/md/cn_test.md'
+    pdf_filepath = '/home/zheng_yang/workspace/data-synthesis/tests/test_samples/md_label_generate/pdf/output.pdf'
+    md_filepath = '/home/zheng_yang/workspace/data-synthesis/tests/test_samples/md_label_generate/md/output.md'
     mdtext_by_page = split_whole_md(pdf_path=pdf_filepath, md_path=md_filepath)
-    for text in mdtext_by_page:
-        print(text[-40:])
+    # for text in mdtext_by_page:
+    #     print(text[-40:])
 
 
